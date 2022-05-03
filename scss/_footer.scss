@@ -1,0 +1,22 @@
+.encabezadofooter {
+    h2{
+        @include titulos-secundarios;
+    }
+}
+
+.fondo-footer{
+    background-color: #D2D2D2;
+}
+
+.redes-sociales-footer{
+    a{
+        text-decoration: none;
+        img{
+            transition:0.3s;
+            
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}

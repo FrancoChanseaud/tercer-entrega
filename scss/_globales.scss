@@ -1,0 +1,50 @@
+@mixin titulos {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 300;
+        font-size: 4rem;
+}
+
+@mixin textos {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+@mixin titulos-secundarios {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fsz-3{
+    font-size: 3rem;
+}
+.fsz-5{
+    font-size: 5rem;
+}
+.fsz-10{
+    font-size: 10rem;
+}
+
+.color-principal{
+    color: #D2D2D2;
+}
+
+.color-secundario{
+    color: #222222;
+}
+
+.ocultar{
+    display: none;
+}

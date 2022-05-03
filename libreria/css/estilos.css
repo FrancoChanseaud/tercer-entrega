@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+/*Encabezado de Inicio*/
+.header.inicio{
+    background-image: url(../img/fondo.jpg);
+    background-position:center; /*Posición de la imagen*/
+    background-size:cover; /*Tamaño de la Img*/
+    height: 100vh; /*vh:viewport hieght = altura de la pantalla */
+    min-height: 60rem; /*Minimo de tamaño que tiene que tener la imagen*/
+    
+}
+
+/*navegacion*/
+.barranavegacion{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.barranavegacion a img{
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
+.navegacion a{
+    color:rgba(210,210,210,0.8);
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right:2rem;
+}
+
+.navegacion a:last-of-type{
+    margin: 0;
+}
+
+.navegacion a:hover{
+    color:rgba(255,255,255,0.8)
+}
+
+.navegacion ul li a{
+    padding-right: 15rem;
+}
+
+
+/*Encabezado*/
+.encabezado{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color:rgba(210,210,210,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15rem;
+    align-items: center;
+    align-content: center;
+}
+
+.encabezado h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 8rem;
+}
+
+.encabezado p{
+    font-size: 3rem;
+}
+
+
+.encabezadofooter h2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.encabezado p{
+    margin-top: 1.6rem;
+}
+
+/*footer*/
+.footer{
+    background-color:rgb(210,210,210);
+    padding: 8rem;
+    font-size: 3rem;
+}
+
+.encabezadofooter{
+    display: flex;
+    justify-content: center;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.enlaces div a img{
+    transition:0.3s;
+}
+
+.enlaces div a img:hover{
+    transform: scale(1.1);
+}
+
+/*Galería*/
+.header{
+    background-color:#303134;
+    padding: 1.6rem 0 4.8rem 0;
+}
+
+.galeria{
+    font-size: 3rem;
+}
+.centrar{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.barranavegacion-galeria{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.barranavegacion-galeria a img{
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
+.navegacion-galeria{
+    display: flex;
+    justify-content:space-between;
+}
+
+.navegacion-galeria ul{
+    list-style: none;
+}
+
+.navegacion-galeria a{
+    color:rgba(210,210,210,0.8);
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right:2rem;
+}
+
+.navegacion-galeria a:last-of-type{
+    margin: 0;
+}
+
+.navegacion-galeria a:hover{
+    color:rgba(255,255,255,0.8);
+}
+
+.navegacion-galeria ul li a{
+    padding-right: 15rem;
+}
+
+/*Main-Galería*/
+.galeria{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+
+.galeria h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.contenedor{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+.coleccion-imagenes{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenedor img{
+    border-radius: 0.5rem;
+}
+.coleccion-titulo{
+    text-align: center;
+    font-size: 3rem;
+}
+
+/*
+
+.contenedor img{
+    max-width: 30rem;
+    grid-area: img;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.fotos img{
+    max-width: 40rem;
+    max-height: 40rem;
+    margin-right: 3rem;
+    border-radius: 3rem;
+}
+
+.galeria-fotos div blockquote{
+    margin: 1rem;
+}
+
+.section blockquote{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.section p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-align:left;
+    font-size: 1.2rem;
+    line-height:1.8rem;
+
+
+
+*/

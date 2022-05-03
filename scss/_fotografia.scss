@@ -1,0 +1,57 @@
+.titulo-secundario{
+    h2{
+        @include titulos-secundarios;
+    }
+}
+
+.header{
+    background-color: #222222;
+    padding: 2rem;
+
+    h1{
+        @media screen and (max-width:768px){
+            display: none;
+        }
+    }
+
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width:768px){
+        display: none;
+    }
+    
+    div{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        transition: 0.1s;
+        box-shadow:  1rem 1rem 1rem #525252,
+                    -1rem -1rem 1rem #ffffff;
+        &:hover{
+            transform: scale(1.04);
+        }
+    }
+}
+.contenedor-mq{
+    display: none;
+    @media screen and (max-width:768px){
+    display: flex;
+    flex-direction: column;
+    
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 1rem;
+        }
+    }
+}
